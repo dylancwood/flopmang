@@ -73,7 +73,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-mocha-cli');
     grunt.loadNpmTasks('grunt-bump');
 
-    grunt.registerTask('test', ['jshint', 'jscs'/*, 'mochacli'*/]);
+    grunt.registerTask('test', ['jshint', 'jscs', 'mochacli']);
 
     // By default, lint and run all tests.
     grunt.registerTask('default', ['test']);
