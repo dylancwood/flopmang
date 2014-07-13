@@ -1,0 +1,28 @@
+{
+  "name": "flopmang",
+  "version": "0.0.0",
+  "description": "Flag Option Manager for Grunt: framework for converting grunt task-options into CLI flags for child processes",
+  "main": "lib/argUtil.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dylancwood/flopmang.git"
+  },
+  "keywords": [
+    "grunt",
+    "tasks",
+    "options",
+    "arguments",
+    "flags",
+    "command",
+    "line"
+  ],
+  "author": "Dylan Wood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dylancwood/flopmang/issues"
+  },
+  "homepage": "https://github.com/dylancwood/flopmang"
+}
