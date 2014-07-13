@@ -214,10 +214,14 @@ var flopmang = new FlOpMang(task, configs);
 The constructor takes two arguments:
 
 #### task
+Type: `object`
+
 The current grunt task. This is used to extend the default values with the user-provided options at run-time. Depending on the context from which you are calling the constructor, you can use `this`, or `grunt.task.current`.
 
 #### configs
-An array of option/argument configuration objects as described above.
+Type: `array`
+
+An array of argConfig configuration objects as described above.
 Example:
 ```js
 var configs = [
